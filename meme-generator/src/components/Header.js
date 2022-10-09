@@ -3,7 +3,7 @@ import React from "react";
 export default function Header(){
     return (
         <div>
-            <img src="./images/header.png" />
+            <img src="./images/Header.png" />
         </div>
     );
 }
