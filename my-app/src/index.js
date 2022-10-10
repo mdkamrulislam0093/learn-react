@@ -4,44 +4,32 @@ import './index.css';
 
 export default function App(){
 
-//   const [isImportant, setIsImportant] = React.useState('Yes');
+  // let [ isGoingOut, setisGoingOut ] = React.useState(true);
 
-//   function handleClick () {
-//     setIsImportant('No');
-//   }
-
-// return (
-//   <div className='state'>
-//     <h1 className='state--title'>Is state important to know?</h1>
-//     <div className='state--value' onClick={handleClick}>
-//       <h1>{isImportant}</h1>
-//     </div>
-//   </div>  
-// )
-
-  const [countNumber, setCounter] = React.useState(0);
-
-  function IncreaseCount() {
-      setCounter(prevcount => prevcount + 1);      
-  }
-
-  function DecreaseCount() {
-    if ( countNumber > 0 ) {    
-      setCounter( prevcount => prevcount - 1 );
-    }
-  }
-
-return (
-  <div className='counter'>
-    <button onClick={DecreaseCount}>-</button>
-    <div className='counter--count'>
-      <h1>{countNumber}</h1>
-    </div>
-    <button onClick={IncreaseCount}>+</button>
-  </div>
-);
+  // function statetrigger() {
+  //   setisGoingOut((prevValue) => !prevValue );
+  // }
 
 
+  // return (
+  //   <div className='state'>
+  //     <h1 className='state--title'>Is state important to know?</h1>
+  //     <div className='state--value'>
+  //       <h1 onClick={statetrigger}>{ isGoingOut ? 'Yes' : 'No' }</h1>
+  //     </div>
+  //   </div>  
+  // )
+
+
+  const thingsArray = React.useState(['things 1', 'things 2']);
+
+  thingsArray.map(function(item, value){
+    console.log(item, value);
+  });
+  
+  return(
+    <div>Hello</div>
+  );
 
 }
 

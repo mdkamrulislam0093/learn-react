@@ -15,6 +15,38 @@ body {
 
 
 
+.state {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  background: #0f0f43;
+  color: #fff;
+  height: 70vh;
+  padding-top: 150px;
+}
+
+.state--value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+} 
+
+.state--value h1 {
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border-radius: 50%;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 700;
+} 
+
+
+/* 
 .counter {
   max-width: 700px;
   margin: auto;
@@ -57,4 +89,4 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 36px;
-}
+} */
