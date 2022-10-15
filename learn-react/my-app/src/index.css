@@ -13,7 +13,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
+/* 
 
 .state {
   max-width: 700px;
@@ -44,9 +44,9 @@ body {
   font-size: 30px;
   font-weight: 700;
 } 
+ */
 
 
-/* 
 .counter {
   max-width: 700px;
   margin: auto;
@@ -89,4 +89,29 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 36px;
-} */
+}
+
+
+
+/* contact 
+.cntainer {
+  max-width: 360px;
+  margin: auto;
+  border: 1px solid #ddd;
+  padding: 50px;
+  text-align: center;
+}
+
+img.profile-pic {
+  max-width: 200px;
+}
+
+img.star {
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin: 12px auto;
+}
+ contact */
+
+
